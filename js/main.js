@@ -35,24 +35,7 @@ $(document).ready(function() {
     }); //end validate
 }); //end document ready
 
-$(document).ready(function() {
-    $(".gallery").flipping_gallery({
-        direction: "forward",
-        selector: "> a",
-        spacing: 10,
-        showMaximum: 10,
-        enableScroll: true
-    });
 
-	    $(".next").click(function() {
-	      $(".gallery").flipForward();
-	      return false;
-	    });
-	    $(".prev").click(function() {
-	      $(".gallery").flipBackward();
-	      return false;
-	    });
-});
 // $(document).ready(function() {
 //     button.click(function() {
 //         $("body").css("background-color: yellow");
