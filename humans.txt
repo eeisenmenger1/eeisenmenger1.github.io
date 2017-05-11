@@ -13,3 +13,6 @@
 
     CSS3, HTML5
     Apache Server Configs, jQuery, Modernizr, Normalize.css
+
+Created by Emily Eisenmenger
+Used flipping -gallery.js 
