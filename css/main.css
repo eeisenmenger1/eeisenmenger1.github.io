@@ -286,6 +286,10 @@ textarea {
 	    background-size: 100%;
     }
 
+    #bac {
+        opacity: 0.3;
+    }
+
 	#Ashley {
 		font-family: "Eurostile Std (Condensed)", monospace;
 		font-weight: lighter;
