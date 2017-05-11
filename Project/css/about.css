@@ -1,0 +1,151 @@
+    html {
+        background-color: midnightblue;
+    }
+	.sidenav {
+    	height: 100%; 
+    	width: 0; 
+    	position: fixed; 
+    	z-index: 1; 
+    	top: 0;
+    	left: 0;
+    	background-color: #111; 
+    	overflow-x: hidden; 
+    	padding-top: 60px; 
+    	transition: 0.5s; 
+    	text-align: left;
+    }
+
+    .sidenav a {
+    	padding: 8px 8px 8px 32px;
+    	text-decoration: none;
+    	font-size: 25px;
+    	color: #818181;
+    	display: block;
+    	transition: 0.3s
+	}	
+
+	.closebtn {
+		text-align: right;
+		margin-top: -45px;
+		padding-bottom: 75px;
+	}
+
+	.tab:hover {
+		opacity: 0.5;
+		background-color: #D3D3D3;
+	}
+
+    #pre_race {
+        height: 300px;
+        width: 215px;
+		position: relative;
+		top: -120px;
+		left: -160px;
+    }
+
+    #biking_5 {
+        height: 200px;
+        width: 275px;
+		position: relative;
+		left: -210px;
+		top: -20px;
+    }
+
+    #Ashley_signiture {
+        height: 250px;
+        width: 250px;
+		position: relative;
+		left: -425px;
+		top: -66px;
+    }
+
+	#open {
+/*        margin-top: -1840px;*/
+        padding-left: 12px;
+		padding-top: 5px;
+    }
+
+    #about1 {
+        text-align: center;
+    }
+	
+	#twitter_logo {
+		height: 50px;
+		width: 50px;
+		position: relative;
+		left: 535px;
+		top: -50px;
+	}
+
+	#wordpress-logo {
+		height: 50px;
+		width: 50px;
+		position: relative;
+		left: 590px;
+		top: 20px;
+	}
+	#video {
+		position: relative;
+		right: 55px;
+		top: -505px;
+	}
+
+	#video_credits {
+		text-align: right;
+		position: relative;
+		top: -290px;
+		right: -35px;
+		color: white;
+	}
+
+	summary {
+		outline: none;
+		width: 100%;
+	}
+
+	.Jesse {
+		position: relative;
+		left: 255px;
+	}
+	
+	.Jesse2 {
+		position: relative;
+		left: 295px;
+	}
+
+	#about_ashley {
+		padding-left: 20px;
+		color: white;
+		text-align: left;
+		margin-top: -12px;
+		font-size: 1.300em;
+	}
+
+	#Ashley_NCC {
+		height: 190px;
+		width: 250px;
+		position: relative;
+		left: 550px;
+		top: -390px;
+	}
+
+	#Ash_Chicago {
+		height: 210px;
+		width: 250px;
+		position: relative;
+		left: 1020px;
+		top: -190px;
+	}
+
+    li {
+        list-style: none;
+        padding: 5px;
+    }
+
+	#vid:visited {
+		color: pink;
+	}
+
+	#vid:link {
+		color: red;
+	}
