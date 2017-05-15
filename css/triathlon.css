@@ -92,3 +92,10 @@
         list-style: none;
         padding: 5px;
     }
+
+	footer {
+		position: relative;
+		top: 260px;
+		text-align: center;
+		color: black;
+	}
