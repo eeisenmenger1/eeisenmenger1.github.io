@@ -13,3 +13,7 @@ ul {
 a {
     color: yellow;
 }
+
+a:hover {
+    color: yellow;
+}
