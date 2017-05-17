@@ -1,8 +1,7 @@
 .rating {
   unicode-bidi: bidi-override;
   direction: rtl;
-  text-align: left;
-  align-items: left;
+  float: left;
 }
 .rating > span {
   display: inline-block;
@@ -13,5 +12,4 @@
 .rating > span:hover ~ span:before {
    content: "\2605";
    position: absolute;
-   /*text-align: left;*/
 }
