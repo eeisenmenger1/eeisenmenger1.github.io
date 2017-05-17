@@ -1,7 +1,11 @@
 body {
-    background-color: black;
+    background-color: darkblue;
 }
 
 a:visited {
-    color: darkorange;
+    color: yellow;
+}
+
+ul {
+	list-style-type: none;
 }
