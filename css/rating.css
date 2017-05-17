@@ -12,5 +12,17 @@
 .rating > span:hover ~ span:before {
    content: "\2605";
    position: absolute;
-   color: gold;
+   color: navy;
 }
+
+#commentRow {
+	color: blue;
+	font-weight: bold;
+}
+
+body {
+  background: #466368;
+  background: linear-gradient(to right, #ede909, #16448e, #293f50);
+  border-radius: 6px;
+}
+
