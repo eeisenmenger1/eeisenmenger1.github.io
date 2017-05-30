@@ -302,6 +302,8 @@ form {
     border: none;
     outline: none;
     -ms-user-select: none;
+    float: left;
+    margin-left: 5px;
 }
 
 #answer2 {
@@ -312,6 +314,8 @@ form {
     border: none;
     outline: none;
     -ms-user-select: none;
+    float: left;
+    margin-left: 5px;
 }
 
 #answer3 {
@@ -322,6 +326,8 @@ form {
     border: none;
     outline: none;
     -ms-user-select: none;
+    float: left;
+    margin-left: 5px;
 }
 
 #answer4 {
@@ -332,6 +338,8 @@ form {
     border: none;
     outline: none;
     -ms-user-select: none;
+    float: left;
+    margin-left: 5px;
 }
 
 #submit {
