@@ -309,7 +309,7 @@ textarea {
 		text-align: right;
 		text-shadow: 2px 2px #ff0000;
 		margin-right: 370px;
-		padding-top: 300px;
+        margin-top: -150px;
 		font-size: 3.700em;
     }
 
@@ -369,11 +369,13 @@ textarea {
 		text-align: right;
 		margin-top: -45px;
 		padding-bottom: 75px;
+        text-decoration: none;
 	}
 
 	.tab:hover {
 		opacity: 0.5;
 		background-color: #D3D3D3;
+		text-decoration: none;
 	}
 
 	body {
