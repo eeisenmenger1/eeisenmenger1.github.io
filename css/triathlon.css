@@ -1,0 +1,141 @@
+    html {
+        background-color: firebrick;
+    }
+
+	.col-md-12 {
+		background-color: firebrick;
+	}
+
+	.col-md-6 {
+		background-color: firebrick;
+	}
+
+	.row {
+		background-color: firebrick;
+	}
+
+	h1 {
+		text-align: right;
+	}
+
+	.sidenav {
+    	height: 100%; 
+    	width: 0; 
+    	position: fixed; 
+    	z-index: 1; 
+    	top: 0;
+    	left: 0;
+    	background-color: #111; 
+    	overflow-x: hidden; 
+    	padding-top: 60px; 
+    	transition: 0.5s; 
+    	text-align: left;
+    }
+
+    .sidenav a {
+    	padding: 8px 8px 8px 32px;
+    	text-decoration: none;
+    	font-size: 25px;
+    	color: #818181;
+    	display: block;
+    	transition: 0.3s
+	}	
+
+	.closebtn {
+		text-align: right;
+		margin-top: -45px;
+		padding-bottom: 75px;
+	}
+
+	.tab:hover {
+		opacity: 0.5;
+		background-color: #D3D3D3;
+		text-decoration: none;
+	}
+
+	#swimming {
+		height: 250px;
+		width: 450px;
+		border: 2px solid black;
+		/*float: right;*/
+		margin-top: 0px;
+		/*position: relative;
+		left: 50px;
+		top: 80px;*/
+	}
+
+	#biking {
+		height: 250px;
+		width: 350px;
+		border: 2px solid black;
+		/*margin-top: -550px;*/
+		/*position: relative;
+		left: 250px;
+		top: 75px;*/
+	}
+
+	#running {
+		height: 300px;
+		width: 250px;
+		border: 2px solid black;
+		margin-top: 20px;
+		/*position: relative;
+		left: -340px;
+		top: 270px;*/
+	}
+
+	div {
+		background-color: firebrick;
+	}
+
+    #open {
+        margin-top: 12px;
+        padding-left: 12px;
+		background-color: firebrick;
+    }
+
+	#triathlon_1 {
+		position: relative;
+		left: 10px;
+		top: 10px;
+		font-size: 1.300em;
+		color: white;
+	}
+
+	#triathlon_2 {
+		position: relative;
+		left: 10px;
+		margin-right: 10px;
+		top: 10px;
+		font-size: 1.300em;
+		color: white;
+	}
+
+	#tri_title {
+		position: relative;
+		text-align: center;
+		right: 30px;
+		left: 5px;
+		top: -10px;
+		color: white;
+	}
+
+	#Ash_squat {
+		margin-top: 20px;
+		height: 250px;
+		width: 350px;
+		border: 2px solid black;
+		/*position: relative;
+		left: -20px;
+		top: 260px;*/
+	}
+
+    li {
+        list-style: none;
+        padding: 5px;
+    }
+
+
+.col-md-3 {
+	padding-top: 65px;
+}

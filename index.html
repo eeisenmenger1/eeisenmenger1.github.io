@@ -3,57 +3,65 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Accessibility Survey</title>
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="16392-200.png" href="16392-200.png">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <script type="text/JavaScript">
-        function killCopy(e){
-            return false
-        }
-        function reEnable(){
-            return true
-        }
-        document.onselectstart=new Function ("return false")
-        if (window.sidebar){
-            document.onmousedown=killCopy
-            document.onClick=reEnable
-        }
-        </script>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
     </head>
-    <body>
+    <body id="backgroundimage" background="img/Biking_4 (2)-widescreen ratio.jpeg">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Accessibility Survey</h1>
-                <form style="text-align: center;" action="https://formspree.io/aaeisenmenger@noctrl.edu"              method="POST">
-                    <input id="name" type="text" name="name" placeholder="Name"><br>
-                    <p>What does it mean for something to be accessible for the blind and visually impaired?</p>
-                    <input id="answer1" type="text" name="answer1"><br>
-                    <p>How can accessibility be improved for the blind and visually impaired?</p>
-                    <input id="answer2" type="text" name="answer2"><br>
-                    <p>What ideas do you have to make the Internet more accessible for the blind and visually impaired?</p>
-                    <input id="answer3" type="text" name="answer3"><br>
-                    <p>Should fair access laws exsist to help make pages being accessible? Why or why not?</p>
-                    <input id="answer4" type="text" name="answer4"><br>
-                    <br>
-                    <input id="submit" type="submit" value="Submit">
-                </form>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2.left">
+                    <span onclick="openNav()"</span> <img alt="Open navigation menu." id="open" src="img/navbar_open_logo.png" height="35px" width="50px">
+                </div>
+                <div class="col-md-4">
+                    <!--<h2>Ashley's website</h2>-->
+                </div>
+                <div class="col-md-6.right">
+                    <img alt="Challenge your Limits in braille." id="braillelogo" src="img/braille logo maroon.png" style="height: 100px" "width: 300px">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="QUOTE"></h1>
+     			    <h1 id="quote1">"CHALLENGE</h1>
+                </div>
+                <div class="col-md-12">
+                    <h1 id="quote2">YOUR</h1>
+                </div>
+                <div class="col-md-12">
+                    <h1 id="quote3">LIMITS"</h1>
+                </div>
+            </div>
+
+            <!--Code for the navigation bar.-->
+            <div class="row">
+                <div class="col-xs-2" "col-sm-6" "col-md-6" "col-lg-8">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <li><a class="tab" href="index.html">Home</a></li>
+                        <li><a class="tab" href="triathlon.html">What is Triathlon?</a></li>
+                        <li><a class="tab" href="about.html">About Ashley</a></li>
+                        <li><a class="tab" href="contact.html">Contact Ashley</a></li>
+                        <li><a class="tab" href="gallery.html">Gallery</a></li>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+            <!--Opens the navigation bar.-->   
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

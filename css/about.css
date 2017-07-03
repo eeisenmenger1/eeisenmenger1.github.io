@@ -1,0 +1,182 @@
+    html {
+        background-color: midnightblue;
+    }
+
+    .container-fluid {
+        background-color: midnightblue;
+    }
+	.sidenav {
+    	height: 100%; 
+    	width: 0; 
+    	position: fixed; 
+    	z-index: 1; 
+    	top: 0;
+    	left: 0;
+    	background-color: #111; 
+    	overflow-x: hidden; 
+    	padding-top: 60px; 
+    	transition: 0.5s; 
+    	text-align: left;
+    }
+
+    .sidenav a {
+    	padding: 8px 8px 8px 32px;
+    	text-decoration: none;
+    	font-size: 25px;
+    	color: #818181;
+    	display: block;
+    	transition: 0.3s
+
+	}	
+
+	.closebtn {
+		text-align: right;
+		margin-top: -45px;
+		padding-bottom: 75px;
+	}
+
+	.tab:hover {
+		opacity: 0.5;
+		background-color: #D3D3D3;
+		text-decoration: none;
+	}
+
+    #pre_race {
+        height: 300px;
+        width: 215px;
+        margin-top: -300px;
+        margin-left: -100px;
+		/*position: relative;
+		top: -120px;
+		left: -160px;*/
+    }
+
+    #biking_5 {
+        height: 200px;
+        width: 275px;
+        margin-left: -100px;
+        margin-top: 100px;
+		/*position: relative;
+		left: -210px;
+		top: -20px;*/
+    }
+
+    #Ashley_signiture {
+        height: 250px;
+        width: 250px;
+		position: relative;
+		top: -180px;
+		left: 10px;
+    }
+
+	#open {
+/*        margin-top: -1840px;*/
+        padding-left: 12px;
+		padding-top: 5px;
+    }
+	
+	#twitter_logo {
+		height: 50px;
+		width: 50px;
+		position: relative;
+		left: 535px;
+		top: -50px;
+	}
+
+	#wordpress-logo {
+		height: 50px;
+		width: 50px;
+		position: relative;
+		left: 590px;
+		top: 20px;
+	}
+	#video {
+		position: relative;
+		right: 55px;
+		top: -485px;
+	}
+
+	#video_credits {
+		text-align: right;
+		position: relative;
+		top: -280px;
+		right: 5px;
+		color: white;
+	}
+
+	summary {
+		outline: none;
+		width: 100%;
+	}
+
+    details {
+        white-space: nowrap;
+        margin-right: 122px;
+    }
+
+	.Jesse {
+		position: relative;
+		left: 255px;
+	}
+
+    div {
+        background-color: midnightblue;
+    }
+	
+	.Jesse2 {
+		position: relative;
+		left: 295px;
+	}
+
+	#about_ashley {
+        position: relative;
+        top: 30px;
+        padding-left: 20px;
+		color: white;
+		text-align: left;
+		margin-top: -12px;
+		font-size: 1.300em;
+	}
+
+	#Ashley_NCC {
+		height: 190px;
+		width: 250px;
+		margin-top: -600px;
+		margin-left: 80px;
+		/*position: relative;
+		left: 550px;
+		top: -390px;*/
+	}
+
+	#Ash_Chicago {
+		height: 210px;
+		width: 250px;
+		margin-left: 80px;
+		margin-top: -100px;
+		/*position: relative;
+		left: 1020px;
+		top: -190px;*/
+	}
+
+    li {
+        list-style: none;
+        padding: 5px;
+    }
+
+	#vid:visited {
+		color: pink;
+	}
+
+	#vid:link {
+		color: red;
+	}
+
+    #about1 {
+    	color: red;
+    	letter-spacing: .05em;
+    	text-shadow: 
+      		4px 4px 0px black, 
+      		7px 7px 0px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-size: 2.900em;
+  	}

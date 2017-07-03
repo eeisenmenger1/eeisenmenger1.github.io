@@ -281,77 +281,112 @@ textarea {
     }
 }
 
-body {
-    background-color: #ff0381;
-}
+	#backgroundimage {
+	    background-size: 100%;
+    }
 
-form {
-    color: #ff0000;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-    -ms-user-select:none;
-    font-size: 8px;
-}
+	#Ashley {
+		font-family: "Eurostile Std (Condensed)", monospace;
+		font-weight: lighter;
+		font-size: 1.000em;
+		font-style: italic;
+		text-align: right;
+		color: whitesmoke;
+		margin-right: 10px;
+		margin-top: -100px;
+    }
+    .QUOTE {
+        padding-top: 750px;
+        padding-left: 235px;
+        
+    }
 
-#answer1 {
-    background-color: #ff0381;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-    border: none;
-    outline: none;
-    -ms-user-select: none;
-    float: left;
-    margin-left: 5px;
-}
+	#quote1 {
+		font-family: "Gill Sans MT", sans-serif;
+		font-style: italic;
+		font-weight: lighter;
+		line-height: 12px;
+		text-align: right;
+		text-shadow: 2px 2px #ff0000;
+		margin-right: 370px;
+		padding-top: 300px;
+		font-size: 3.700em;
+    }
 
-#answer2 {
-    background-color: #ff0381;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-    border: none;
-    outline: none;
-    -ms-user-select: none;
-    float: left;
-    margin-left: 5px;
-}
+	#quote2 {
+		font-family: "Gill Sans MT", sans-serif;
+		font-style: italic;
+		font-weight: lighter;
+		margin-right: 260px;
+		line-height: 12px;
+		text-align: right;
+		text-shadow: 2px 2px deepskyblue;
+		color: gray;
+		font-size: 3.700em;
+	}
 
-#answer3 {
-    background-color: #ff0381;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-    border: none;
-    outline: none;
-    -ms-user-select: none;
-    float: left;
-    margin-left: 5px;
-}
+	#quote3 {
+		font-family: "Gill Sans MT", sans-serif;
+		font-style:italic;
+		font-weight: lighter;
+		margin-right: 110px;
+		line-height: 12px;
+		text-align: right;
+		text-shadow: 2px 2px #ff0000;
+		font-size: 3.700em;
+	}
 
-#answer4 {
-    background-color: #ff0381;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-    border: none;
-    outline: none;
-    -ms-user-select: none;
-    float: left;
-    margin-left: 5px;
-}
+	#braillelogo {
+		height: 120px;
+		width: 210px;
+		float: right;
+	}
 
-#submit {
-    background-color: #ff0381;
-    border: none;
-    outline: none;
-}
+	.sidenav {
+    	height: 100%; 
+    	width: 0; 
+    	position: fixed; 
+    	z-index: 1; 
+    	top: 0;
+    	left: 0;
+    	background-color: #111; 
+    	overflow-x: hidden; 
+    	padding-top: 60px; 
+    	transition: 0.5s; 
+    	text-align: left;
+    }
 
-h1 {
-    color: #ff0000;
-    text-align: center;
-    -moz-user-select: none;
-    -user-select:none;
-    -webkit-user-select: none;
-}
+    .sidenav a {
+    	padding: 8px 8px 8px 32px;
+    	text-decoration: none;
+    	font-size: 25px;
+    	color: #818181;
+    	display: block;
+    	transition: 0.3s
+	}	
+
+	.closebtn {
+		text-align: right;
+		margin-top: -45px;
+		padding-bottom: 75px;
+	}
+
+	.tab:hover {
+		opacity: 0.5;
+		background-color: #D3D3D3;
+	}
+
+	body {
+		width: 100%;
+		background-repeat: no-repeat;
+	}
+
+    #open {
+        margin-top: 12px;
+        padding-left: 12px;
+    }
+
+    li {
+        list-style: none;
+        padding: 5px;
+    }
